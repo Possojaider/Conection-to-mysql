@@ -33,7 +33,7 @@ public class VentanaBasesDatos extends JFrame {
         panel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
 
         JLabel titulo = new JLabel(
-            "TABLAS DE OFTALMOLOGIA_GLAUCOMA"
+            "TABLAS DE JARDINERIA"
         );
 
         titulo.setFont(new Font("Segoe UI", Font.BOLD, 20));
@@ -89,7 +89,7 @@ public class VentanaBasesDatos extends JFrame {
 
             JOptionPane.showMessageDialog(
                 this,
-                "Error al consultar tablas:\n" + e.getMessage(),
+                Conexion.diagnosticoError(e, "VentanaBasesDatos.cargarTablas"),
                 "Error",
                 JOptionPane.ERROR_MESSAGE
             );

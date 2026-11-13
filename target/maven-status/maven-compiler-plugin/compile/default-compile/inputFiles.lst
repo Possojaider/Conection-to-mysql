@@ -1,7 +1,52 @@
-/home/camper/Escritorio/El gran Jaider (no touch)/conection-to-mysql/src/main/java/com/conectiontomysql/Conexion.java
-/home/camper/Escritorio/El gran Jaider (no touch)/conection-to-mysql/src/main/java/com/conectiontomysql/DeletePatient.java
-/home/camper/Escritorio/El gran Jaider (no touch)/conection-to-mysql/src/main/java/com/conectiontomysql/InsertPatient.java
-/home/camper/Escritorio/El gran Jaider (no touch)/conection-to-mysql/src/main/java/com/conectiontomysql/Main.java
-/home/camper/Escritorio/El gran Jaider (no touch)/conection-to-mysql/src/main/java/com/conectiontomysql/MenuMySQL.java
-/home/camper/Escritorio/El gran Jaider (no touch)/conection-to-mysql/src/main/java/com/conectiontomysql/SelectPatient.java
-/home/camper/Escritorio/El gran Jaider (no touch)/conection-to-mysql/src/main/java/com/conectiontomysql/UpdatePatient.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/ApplicationFactory.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/Conexion.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/DatabaseConfig.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/EntityCrudFrame.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/Main.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/MenuMySQL.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/PedidoCreationFrame.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/VentanaBasesDatos.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/VentanaDashboard.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/VentanaModulos.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/VentanaRegistros.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/application/model/EntityField.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/application/model/EntityOption.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/application/model/EntityTable.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/application/model/EntityValue.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/application/ports/in/CreateOrderUseCase.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/application/ports/in/CrudUseCase.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/application/ports/in/EntityManagementUseCase.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/application/ports/out/EntityManagementPort.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/application/usecases/CrudService.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/application/usecases/EntityManagementService.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/application/usecases/OrderService.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/model/Cliente.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/model/DetallePedido.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/model/DetallePedidoId.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/model/Empleado.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/model/GamaProducto.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/model/Oficina.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/model/Pago.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/model/PagoId.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/model/Pedido.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/model/Producto.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/ports/out/ClienteRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/ports/out/CrudRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/ports/out/DetallePedidoRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/ports/out/EmpleadoRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/ports/out/GamaProductoRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/ports/out/OficinaRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/ports/out/OrderTransactionPort.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/ports/out/PagoRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/ports/out/PedidoRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/domain/ports/out/ProductoRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/infrastructure/adapters/out/persistence/JdbcClienteRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/infrastructure/adapters/out/persistence/JdbcDetallePedidoRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/infrastructure/adapters/out/persistence/JdbcEmpleadoRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/infrastructure/adapters/out/persistence/JdbcEntityManagementAdapter.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/infrastructure/adapters/out/persistence/JdbcGamaProductoRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/infrastructure/adapters/out/persistence/JdbcOficinaRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/infrastructure/adapters/out/persistence/JdbcOrderTransactionAdapter.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/infrastructure/adapters/out/persistence/JdbcPagoRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/infrastructure/adapters/out/persistence/JdbcPedidoRepository.java
+/Users/usuario/Desktop/Conection-to-mysql/src/main/java/com/conectiontomysql/infrastructure/adapters/out/persistence/JdbcProductoRepository.java

@@ -1,0 +1,5 @@
+.env
+target/
+*.log
+src/main/resources/db.properties
+/imagenes/

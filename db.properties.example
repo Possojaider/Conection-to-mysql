@@ -1,0 +1,3 @@
+db.url=jdbc:mysql://localhost:3307/jardineria
+db.user=java_app
+db.password=replace_with_a_strong_app_password
